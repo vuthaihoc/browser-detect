@@ -23,6 +23,7 @@ class CrawlerDetect implements StageInterface
             $payload->getAgent()
         );
         $payload->setValue('isBot', $crawler->isCrawler());
+        $payload->setValue('robot', $crawler->getMatches());
 
         return $payload;
     }

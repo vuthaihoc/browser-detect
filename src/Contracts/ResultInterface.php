@@ -61,6 +61,13 @@ interface ResultInterface extends JsonSerializable
     public function isBot(): bool;
 
     /**
+     * Return robot name when isBot() is true
+     *
+     * @return ?string
+     */
+    public function robot(): ?string;
+
+    /**
      * Is this a Chrome or Chromium browser?
      *
      * @return bool
