@@ -22,6 +22,7 @@ use Illuminate\Support\Facades\Facade as BaseFacade;
  * @method static bool isLinux()
  * @method static bool isInApp()
  * @method static bool isBot()
+ * @method static bool robot()
  * @method static bool isIEVersion()
  * @method static string browserEngine()
  * @method static string browserName()
